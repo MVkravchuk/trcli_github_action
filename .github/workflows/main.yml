@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: MVkravchuk/trcli_github_action/hello-world-docker-action
+        uses: MVkravchuk/trcli_github_action
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
